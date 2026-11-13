@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Data — never commit raw PDFs or generated JSONs
+data/books/*.pdf
+data/mcqs/
+data/outputs/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+# Generated previews
+mcq_preview.html

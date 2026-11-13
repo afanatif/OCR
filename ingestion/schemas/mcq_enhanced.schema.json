@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EnhancedUnit",
+  "description": "Phase 2 output: Gemini-enriched MCQs with sub-topic mapping, detailed explanations, and difficulty.",
+  "type": "object",
+  "required": ["book", "subject", "unit_number", "mcqs"],
+  "properties": {
+    "book":        { "type": "string" },
+    "subject":     { "type": "string" },
+    "unit_number": { "type": "integer" },
+    "unit_title":  { "type": ["string", "null"] },
+    "mcqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_number", "unit_number", "question_text", "options",
+          "correct_answer", "sub_topic", "explanation_detailed",
+          "why_each_option_wrong", "difficulty"
+        ],
+        "properties": {
+          "question_number":  { "type": "integer" },
+          "unit_number":      { "type": "integer" },
+          "question_text":    { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "text"],
+              "properties": {
+                "label": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+                "text":  { "type": "string" }
+              }
+            }
+          },
+          "correct_answer":      { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+          "short_explanation":   { "type": ["string", "null"] },
+          "reference":           { "type": ["string", "null"] },
+          "topic":               { "type": ["string", "null"] },
+          "sub_topic":           { "type": "string", "description": "Gemini-assigned sub-topic from the book hierarchy." },
+          "explanation_detailed":{ "type": "string" },
+          "explanation_summary": { "type": ["string", "null"] },
+          "why_each_option_wrong": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "reason_wrong"],
+              "properties": {
+                "label":        { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+                "reason_wrong": { "type": "string" }
+              }
+            }
+          },
+          "difficulty": { "type": "string", "enum": ["Easy", "Medium", "Hard"] }
+        }
+      }
+    }
+  }
+}

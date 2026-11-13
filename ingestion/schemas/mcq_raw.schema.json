@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RawUnit",
+  "description": "Phase 1 output: a single unit's MCQs as extracted from the PDF.",
+  "type": "object",
+  "required": ["book", "subject", "unit_number", "mcqs"],
+  "properties": {
+    "book":         { "type": "string", "example": "physio_guyton" },
+    "subject":      { "type": "string", "example": "physiology" },
+    "unit_number":  { "type": "integer" },
+    "unit_title":   { "type": ["string", "null"] },
+    "mcqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question_number", "unit_number", "question_text", "options", "correct_answer"],
+        "properties": {
+          "question_number": { "type": "integer" },
+          "unit_number":     { "type": "integer" },
+          "question_text":   { "type": "string" },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "required": ["label", "text"],
+              "properties": {
+                "label": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+                "text":  { "type": "string" }
+              }
+            }
+          },
+          "correct_answer":    { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+          "short_explanation": { "type": ["string", "null"] },
+          "reference":         { "type": ["string", "null"] },
+          "topic":             { "type": ["string", "null"] },
+          "sub_topic":         { "type": "null", "description": "Always null at raw stage. Set in Phase 2." }
+        }
+      }
+    }
+  }
+}

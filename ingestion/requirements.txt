@@ -1,0 +1,14 @@
+# ── PDF Parsing ────────────────────────────────────────────────────────────
+docling                   # Primary: handles tables, images, multi-column layouts
+pymupdf                   # Fallback 1: fast text extraction (import as fitz)
+pdfplumber                # Fallback 2: strong table detection
+
+# ── AI Enhancement ─────────────────────────────────────────────────────────
+google-genai              # Gemini API client (structured output support)
+
+# ── Data Validation ────────────────────────────────────────────────────────
+pydantic>=2.0             # Data models + Gemini response parsing
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+python-dotenv             # Load .env
+loguru                    # Structured logging

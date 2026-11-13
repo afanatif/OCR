@@ -1,0 +1,130 @@
+{
+  "book_id": "klm_anatomy_mcqs",
+  "book_title": "Klm Anatomy Mcqs",
+  "per_chapter": [
+    {
+      "chapter_id": "ch_1",
+      "chapter_title": "1. The Back",
+      "questions_found": 46,
+      "answers_matched": 39,
+      "orphan_answers": [],
+      "questions_missing_options": [],
+      "questions_missing_answer": [],
+      "questions_figure_ref_no_image": [],
+      "synthesized_image_subquestions": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "directions_segments": [
+        {
+          "qstart": 1,
+          "qend": 40,
+          "kind": "standard",
+          "pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "has_set_options": false
+        },
+        {
+          "qstart": 41,
+          "qend": 46,
+          "kind": "image",
+          "pages": [
+            13
+          ],
+          "has_set_options": false
+        }
+      ],
+      "images_attached": 7
+    },
+    {
+      "chapter_id": "ch_2",
+      "chapter_title": "2. The Upper Limb",
+      "questions_found": 98,
+      "answers_matched": 83,
+      "orphan_answers": [],
+      "questions_missing_options": [],
+      "questions_missing_answer": [],
+      "questions_figure_ref_no_image": [],
+      "synthesized_image_subquestions": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "directions_segments": [
+        {
+          "qstart": 1,
+          "qend": 83,
+          "kind": "standard",
+          "pages": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "has_set_options": false
+        },
+        {
+          "qstart": 84,
+          "qend": 88,
+          "kind": "image",
+          "pages": [
+            28
+          ],
+          "has_set_options": false
+        },
+        {
+          "qstart": 89,
+          "qend": 93,
+          "kind": "image",
+          "pages": [
+            28
+          ],
+          "has_set_options": false
+        },
+        {
+          "qstart": 94,
+          "qend": 98,
+          "kind": "image",
+          "pages": [
+            29
+          ],
+          "has_set_options": false
+        }
+      ],
+      "images_attached": 15
+    }
+  ],
+  "totals": {
+    "questions_found": 795,
+    "answers_matched": 643,
+    "images_attached": 157
+  }
+}

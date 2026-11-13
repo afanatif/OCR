@@ -1,0 +1,20 @@
+# environments
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# copyrighted source books and anything parsed from them
+*.pdf
+mcq_parser/public/data/*/
+mcq_parser/public/books/*
+!mcq_parser/public/books/.gitkeep
+data/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

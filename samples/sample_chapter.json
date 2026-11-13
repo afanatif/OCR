@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "book_id": "klm_anatomy_mcqs",
+    "book_title": "Klm Anatomy Mcqs",
+    "chapter_id": "ch_1",
+    "chapter_title": "1. The Back",
+    "chapter_order": 1
+  },
+  "chapter": {
+    "id": "ch_1",
+    "title": "1. The Back",
+    "order": 1,
+    "page": 8,
+    "sections": [
+      {
+        "id": "ch_1_s1",
+        "title": "1. The Back",
+        "order": 1,
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 1,
+            "text": "1. The Back",
+            "source": "mcq-parser",
+            "page": 8,
+            "id": "ch_1_s1_b0",
+            "confidence": 1.0,
+            "needs_review": false
+          },
+          {
+            "type": "paragraph",
+            "text": "DIRECTIONS (Questions 1 through 40): Each of the numbered items or incomplete statements in this section is followed by answers or by completions of the statements. Select the ONE lettered answer or completion that is BEST in each case.",
+            "word_count": 39,
+            "source": "mcq-parser",
+            "page": 8,
+            "id": "ch_1_s1_b1",
+            "confidence": 0.9,
+            "needs_review": false
+          },
+          {
+            "type": "mcq",
+            "id": "ch_1_s1_q1",
+            "qnum": 1,
+            "question": "The vertebral column does all of the following EXCEPT",
+            "options": [
+              {
+                "key": "A",
+                "text": "protect the spinal cord and spinal nerves"
+              },
+              {
+                "key": "B",
+                "text": "support the weight of the body"
+              },
+              {
+                "key": "C",
+                "text": "provide a pivot for the head"
+              },
+              {
+                "key": "D",
+                "text": "play an important role in posture and locomotion"
+              },
+              {
+                "key": "E",
+                "text": "form the main part of the appendicular skeleton"
+              }
+            ],
+            "answer": "E",
+            "explanation": "The vertebral column forms the main part of the axial skeleton (Moore, p 432).",
+            "page": 8,
+            "bbox": [
+              36.67919921875,
+              271.15380859375,
+              44.55419921875,
+              281.65380859375
+            ],
+            "kind": "standard",
+            "source": "mcq-parser",
+            "confidence": 0.85,
+            "needs_review": false,
+            "set_id": "set_1_40"
+          },
+          {
+            "type": "mcq",
+            "id": "ch_1_s1_q2",
+            "qnum": 2,
+            "question": "Which of the following is NOT a distinctive characteristic of a typical cervical vertebra?",
+            "options": [
+              {
+                "key": "A",
+                "text": "The body is small and wider from side to side than anteroposteriorly."
+              },
+              {
+                "key": "B",
+                "text": "The vertebral foramen is large and triangular."
+              },
+              {
+                "key": "C",
+                "text": "The transverse processes contain transverse foramina."
+              },
+              {
+                "key": "D",
+                "text": "The articular processes contain superior facets directed inferoanteriorly."
+              },
+              {
+                "key": "E",
+                "text": "The spinous processes are short and bifid."
+              }
+            ],
+            "answer": "D",
+            "explanation": "The articular processes contain superior facets directed superoposteriorly (Moore, p 439).",
+            "page": 8,
+            "bbox": [
+              36.68025207519531,
+              415.65484619140625,
+              44.55525207519531,
+              426.15484619140625
+            ],
+            "kind": "standard",
+            "source": "mcq-parser",
+            "confidence": 0.85,
+            "needs_review": false,
+            "set_id": "set_1_40"
+          },
+          {
+            "type": "mcq",
+            "id": "ch_1_s1_q3",
+            "qnum": 3,
+            "question": "Which of the following is NOT a distinctive characteristic of a typical thoracic vertebra?",
+            "options": [
+              {
+                "key": "A",
+                "text": "The body is heart-shaped."
+              },
+              {
+                "key": "B",
+                "text": "The vertebral foramen is triangular and larger than in cervical and lumbar vertebrae."
+              },
+              {
+                "key": "C",
+                "text": "The transverse processes are long and strong and extend posterolaterally."
+              },
+              {
+                "key": "D",
+                "text": "The articular processes contain superior facets directed posteriorly and slightly laterally."
+              },
+              {
+                "key": "E",
+                "text": "The spinous processes are long and slope posteroinferiorly."
+              }
+            ],
+            "answer": "B",
+            "explanation": "The vertebral foramen is circular and smaller than the foramina of cervical and lumbar vertebrae (Moore, p 441).",
+            "page": 8,
+            "bbox": [
+              36.68025207519531,
+              586.156005859375,
+              44.55525207519531,
+              596.656005859375
+            ],
+            "kind": "standard",
+            "source": "mcq-parser",
+            "confidence": 0.85,
+            "needs_review": false,
+            "set_id": "set_1_40"
+          },
+          {
+            "type": "mcq",
+            "id": "ch_1_s1_q41",
+            "qnum": 41,
+            "question": "Identify the anatomical part labeled 41 on the art above.",
+            "options": [
+              {
+                "key": "A",
+                "text": "supraspinous ligament"
+              },
+              {
+                "key": "B",
+                "text": "intertransverse ligament"
+              },
+              {
+                "key": "C",
+                "text": "interspinous ligament"
+              },
+              {
+                "key": "D",
+                "text": "ligamentum flavum"
+              },
+              {
+                "key": "E",
+                "text": "posterior longitudinal ligament"
+              }
+            ],
+            "answer": "B",
+            "explanation": "",
+            "page": 13,
+            "bbox": null,
+            "kind": "image",
+            "source": "mcq-parser",
+            "confidence": 0.85,
+            "needs_review": false,
+            "set_id": "set_41_46",
+            "synthetic": true,
+            "images": [
+              {
+                "src": "/data/klm_anatomy_mcqs/assets/fig_p013_x46.png",
+                "page": 13,
+                "bbox": [
+                  123.6417007446289,
+                  220.88900756835938,
+                  443.3096008300781,
+                  640.9776000976562
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "_note": "Format sample: first blocks of one parsed chapter (+ one MCQ with an attached figure reference). The source book, figures and remaining content are copyrighted and not included."
+}
